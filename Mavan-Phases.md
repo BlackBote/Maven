@@ -6,4 +6,5 @@
    4. package
    5. install
    6. deploy
+   7.
 ```
