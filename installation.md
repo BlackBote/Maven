@@ -17,8 +17,7 @@ Setup M2_HOME and M2 paths in .bash_profile of user and add these to path variab
 ```sh
   vi ~/.bash_profile
   M2_HOME=/opt/maven/apache-maven-3.6.3
-  M2=$M2_HOME/bin
-  PATH=<Existing_PATH>:$M2_HOME:$M2
+  PATH=$PATH:$M2_HOME/bin
 ```
 Once installtion done run below commands
 ```sh
